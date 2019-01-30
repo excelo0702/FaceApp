@@ -23,7 +23,7 @@ public class ResultActivity extends AppCompatActivity {
         Face[] face = gson.fromJson(data, Face[].class);
         ListView mylistview = (ListView)findViewById(R.id.list);
 
-        Bitmap bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.messir);
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.child);
         CustomAdapter customAdapter = new CustomAdapter(face,this,bitmap);
         mylistview.setAdapter(customAdapter);
     }

@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         browse = (Button)findViewById(R.id.browse);
 
-        bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.messir);
+        bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.child);
         imageView = (ImageView)findViewById(R.id.image);
         imageView.setImageBitmap(bitmap);
 
